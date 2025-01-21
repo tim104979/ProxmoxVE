@@ -5,7 +5,7 @@
         12
     ],
     "date_created": "20-01-25",
-    "type": "VM",
+    "type": "vm",
     "updateable": false,
     "privileged": false,
     "interface_port": 5000,
