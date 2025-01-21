@@ -2,7 +2,7 @@
     "name": "Synology VM",
     "slug": "Synology VM",
     "categories": [
-        0
+        12
     ],
     "date_created": "20-01-25",
     "type": "VM",
@@ -16,7 +16,7 @@
     "install_methods": [
         {
             "type": "default",
-            "script": "vm/Synology-VM-Install.sh",
+            "script": "vm/Synology-vm.sh",
             "resources": {
                 "cpu": 2,
                 "ram": 4096,
