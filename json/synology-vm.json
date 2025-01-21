@@ -12,7 +12,7 @@
     "documentation": null,
     "website": "https://auxxxilium.tech/",
     "logo": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/synology-dsm.svg",
-    "description": "This script installs Arc Bootloader this tool gives you the ability to run Synology inside Proxmox",
+    "description": "This script installs Arc Bootloader this tool gives you the ability to run Synology inside Proxmox. After installation Start the vm and open arc config, in there navigate to Hardware ID for Arc Patch. After connecting that go back and choose a model!",
     "install_methods": [
         {
             "type": "default",
