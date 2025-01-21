@@ -16,7 +16,7 @@
     "install_methods": [
         {
             "type": "default",
-            "script": "vm/Synology-vm.sh",
+            "script": "vm/synology-vm.sh",
             "resources": {
                 "cpu": 2,
                 "ram": 4096,
