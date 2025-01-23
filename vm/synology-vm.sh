@@ -373,9 +373,9 @@ URL=https://api.github.com/repos/AuxXxilium/arc/releases/latest
 sleep 2
 msg_ok "${CL}${BL}${URL}${CL}"
 curl -s https://api.github.com/repos/AuxXxilium/arc/releases/latest \
-| grep "browser_download_url.*microcode.img.zip" \
+| grep "browser_download_url.*evo.img.zip" \
 | cut -d '"' -f 4 \
-| xargs wget -q -O microcode.img.zip && unzip -q microcode.img.zip
+| xargs wget -q -O evo.img.zip && unzip -q evo.img.zip
 echo -en "\e[1A\e[0K"
 FILE="arc.img"
 msg_ok "Downloaded ${CL}${BL}${FILE}${CL}"
