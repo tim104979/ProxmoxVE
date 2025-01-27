@@ -389,7 +389,7 @@ nfs | dir)
   THIN=""
   ;;
 esac
-for i in {0,1,2}; do
+for i in {1,2}; do
   disk="DISK$i"
   eval DISK${i}=vm-${VMID}-disk-${i}${DISK_EXT:-}
   eval DISK${i}_REF=${STORAGE}:${DISK_REF:-}${!disk}
